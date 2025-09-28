@@ -25,4 +25,3 @@ dist-ssr
 *.sw?
 vscode-extension/out/**/*
 vscode-extension/media/**/*
-package.json
