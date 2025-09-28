@@ -1,0 +1,150 @@
+{
+  "includes": [
+    "src/glsl/includes/spiral.glsl"
+  ],
+  "nodes": [
+    {
+      "identifier": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+      "nodeType": "glslFunction",
+      "position": {
+        "x": -57.339506172839485,
+        "y": 40.395061728395056
+      },
+      "parameters": {
+        "_identifier": {
+          "type": "string",
+          "value": "spiral"
+        }
+      }
+    },
+    {
+      "identifier": "04a6fd5d_7c60_4f71_b1b2_4294b60825e8",
+      "nodeType": "output",
+      "position": {
+        "x": 500.3765417028356,
+        "y": 104.76543191038532
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "aa30964d_6805_4e6d_a92b_f69fd6212c4e",
+      "nodeType": "uv",
+      "position": {
+        "x": -459.4574516398093,
+        "y": -93.52071935689565
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "2bc6cbd6_aa69_47ef_95da_680f5c749134",
+      "nodeType": "time",
+      "position": {
+        "x": -454.6465552814485,
+        "y": 33.12435068789185
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "2d72f5c1_2562_4592_bee0_cc79f6fb59a0",
+      "nodeType": "float",
+      "position": {
+        "x": -446.11006789932014,
+        "y": 158.54850676316633
+      },
+      "parameters": {
+        "value": {
+          "type": "number",
+          "value": 0.1
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from": {
+        "nodeId": "aa30964d_6805_4e6d_a92b_f69fd6212c4e",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "uv"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 2
+      }
+    },
+    {
+      "from": {
+        "nodeId": "2bc6cbd6_aa69_47ef_95da_680f5c749134",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "time"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "2d72f5c1_2562_4592_bee0_cc79f6fb59a0",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "dis"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "2d72f5c1_2562_4592_bee0_cc79f6fb59a0",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "width"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "2d72f5c1_2562_4592_bee0_cc79f6fb59a0",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "blur"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "94a8b5e4_d393_4255_bfd3_992d5eeff603",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "04a6fd5d_7c60_4f71_b1b2_4294b60825e8",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    }
+  ],
+  "uniforms": {}
+}

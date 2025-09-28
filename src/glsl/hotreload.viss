@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "includes": [],
+  "nodes": [
+    {
+      "identifier": "b29c2f54_e9ca_44df_81fb_0fcfc4c0c184",
+      "nodeType": "output",
+      "position": {
+        "x": 763.0348706736769,
+        "y": 147.97441068123413
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "648ef2be_a32b_41a7_a1fc_7b2a5e0209fd",
+      "nodeType": "sin",
+      "position": {
+        "x": -141.9269234882882,
+        "y": 217.91098102454774
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "fcad928c_4e4b_4937_8647_08e1967e2e77",
+      "nodeType": "time",
+      "position": {
+        "x": -498.23623910267463,
+        "y": 217.83998617820353
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "1051fa2c_bca9_4dc6_bf61_048cf8a6a7f4",
+      "nodeType": "abs",
+      "position": {
+        "x": 219.60421797733966,
+        "y": 219.93880710640158
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "38688fe5_a8e7_4289_a78d_ee1e1be0fa12",
+      "nodeType": "color",
+      "position": {
+        "x": 127.97529098858769,
+        "y": -122.19721978442725
+      },
+      "parameters": {
+        "value": {
+          "type": "color",
+          "value": [
+            0.017483413208887022,
+            0,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "identifier": "08f47099_8de6_4980_8c90_78653ff0520d",
+      "nodeType": "multiply",
+      "position": {
+        "x": 484.5119435447567,
+        "y": 83.74396632907882
+      },
+      "parameters": {}
+    }
+  ],
+  "connections": [
+    {
+      "from": {
+        "nodeId": "fcad928c_4e4b_4937_8647_08e1967e2e77",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "648ef2be_a32b_41a7_a1fc_7b2a5e0209fd",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "38688fe5_a8e7_4289_a78d_ee1e1be0fa12",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "08f47099_8de6_4980_8c90_78653ff0520d",
+        "socketId": "a"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "1051fa2c_bca9_4dc6_bf61_048cf8a6a7f4",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "08f47099_8de6_4980_8c90_78653ff0520d",
+        "socketId": "b"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "648ef2be_a32b_41a7_a1fc_7b2a5e0209fd",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "1051fa2c_bca9_4dc6_bf61_048cf8a6a7f4",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "08f47099_8de6_4980_8c90_78653ff0520d",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "b29c2f54_e9ca_44df_81fb_0fcfc4c0c184",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    }
+  ],
+  "uniforms": {
+    "tex": {
+      "id": "tex",
+      "type": {
+        "id": "sampler2D"
+      },
+      "defaultValue": {
+        "type": "string",
+        "value": ""
+      },
+      "visualizer": {
+        "id": "texture"
+      }
+    }
+  }
+}

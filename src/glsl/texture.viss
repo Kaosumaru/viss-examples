@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "includes": [],
+  "nodes": [
+    {
+      "identifier": "1e30e28b_7382_42d5_ac93_7633c6f7777d",
+      "nodeType": "texture2D",
+      "position": {
+        "x": 355.642172173049,
+        "y": 202.40346189480255
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "02689a15_694f_476f_900e_a9980798adab",
+      "nodeType": "uv",
+      "position": {
+        "x": -31.831276804204435,
+        "y": 268.7695210407809
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "5d185795_4269_4c1e_8d1f_1c5333879582",
+      "nodeType": "output",
+      "position": {
+        "x": 1658.4588105395237,
+        "y": 408.7618433478539
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "4ca49699_9014_407c_b8b3_30291c489afa",
+      "nodeType": "uniform",
+      "position": {
+        "x": -32.55090403734593,
+        "y": 96.61384757921013
+      },
+      "parameters": {
+        "_identifier": {
+          "type": "string",
+          "value": "tex"
+        }
+      }
+    },
+    {
+      "identifier": "4602b39d_2766_499b_aeab_fbbe99eb67c3",
+      "nodeType": "coords",
+      "position": {
+        "x": 262.4361272373879,
+        "y": 777.8623180065463
+      },
+      "parameters": {
+        "center": {
+          "type": "boolean",
+          "value": true
+        },
+        "aspectRatio": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    },
+    {
+      "identifier": "fdd87a56_4ab7_4cd4_87a2_010f676f9e68",
+      "nodeType": "length",
+      "position": {
+        "x": 560.1255744739209,
+        "y": 780.4043851964312
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "946e9f27_7641_44f2_8b37_62962f4537df",
+      "nodeType": "color",
+      "position": {
+        "x": 827.7115944618156,
+        "y": 1053.6097116040717
+      },
+      "parameters": {
+        "value": {
+          "type": "color",
+          "value": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "identifier": "d5ed6f80_b2b2_4ebf_9321_763ff1bfb25f",
+      "nodeType": "multiply",
+      "position": {
+        "x": 1076.7973636183888,
+        "y": 731.6624485045149
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "5ebbdda1_6286_4f90_a958_79832f6f2c38",
+      "nodeType": "float",
+      "position": {
+        "x": 563.2028135889461,
+        "y": 629.6196627291005
+      },
+      "parameters": {
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    {
+      "identifier": "1ce41c13_1f1f_4235_a082_7d30437eaa12",
+      "nodeType": "substract",
+      "position": {
+        "x": 813.0870604114676,
+        "y": 720.5884966574813
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "ec7b8bb7_00b5_4150_b47d_02351791760a",
+      "nodeType": "multiply",
+      "position": {
+        "x": 1291.1766010748966,
+        "y": 475.3860369328545
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "5c245303_9c7c_40e5_b18c_9998279b032d",
+      "nodeType": "texture2D",
+      "position": {
+        "x": 366.1877688575165,
+        "y": -161.9450390030116
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "82ad6414_8ad9_47d7_b876_5fcc01f6ebfc",
+      "nodeType": "uv",
+      "position": {
+        "x": -25.8243522287014,
+        "y": -95.54190072905452
+      },
+      "parameters": {}
+    },
+    {
+      "identifier": "e067bcf0_1a8d_4b1b_8eaf_a340cd2ff7bf",
+      "nodeType": "uniform",
+      "position": {
+        "x": -25.007872072573974,
+        "y": -243.14993341174403
+      },
+      "parameters": {
+        "_identifier": {
+          "type": "string",
+          "value": "tex2"
+        }
+      }
+    },
+    {
+      "identifier": "ec82be85_aa82_4cea_95b7_1b4846c64914",
+      "nodeType": "mix",
+      "position": {
+        "x": 880.2483539892833,
+        "y": 122.64956946852456
+      },
+      "parameters": {
+        "_showPreview": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    },
+    {
+      "identifier": "1201e905_72e3_4a1e_b263_6cf6ca7b0313",
+      "nodeType": "float",
+      "position": {
+        "x": 585.7524024116361,
+        "y": 349.68690634683344
+      },
+      "parameters": {
+        "value": {
+          "type": "number",
+          "value": 0.5
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from": {
+        "nodeId": "02689a15_694f_476f_900e_a9980798adab",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "1e30e28b_7382_42d5_ac93_7633c6f7777d",
+        "socketId": "coord"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 2
+      }
+    },
+    {
+      "from": {
+        "nodeId": "4ca49699_9014_407c_b8b3_30291c489afa",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "1e30e28b_7382_42d5_ac93_7633c6f7777d",
+        "socketId": "texture"
+      },
+      "type": {
+        "id": "sampler2D"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "4602b39d_2766_499b_aeab_fbbe99eb67c3",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "fdd87a56_4ab7_4cd4_87a2_010f676f9e68",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 2
+      }
+    },
+    {
+      "from": {
+        "nodeId": "946e9f27_7641_44f2_8b37_62962f4537df",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "d5ed6f80_b2b2_4ebf_9321_763ff1bfb25f",
+        "socketId": "b"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "5ebbdda1_6286_4f90_a958_79832f6f2c38",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "1ce41c13_1f1f_4235_a082_7d30437eaa12",
+        "socketId": "a"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "fdd87a56_4ab7_4cd4_87a2_010f676f9e68",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "1ce41c13_1f1f_4235_a082_7d30437eaa12",
+        "socketId": "b"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "82ad6414_8ad9_47d7_b876_5fcc01f6ebfc",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "5c245303_9c7c_40e5_b18c_9998279b032d",
+        "socketId": "coord"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 2
+      }
+    },
+    {
+      "from": {
+        "nodeId": "e067bcf0_1a8d_4b1b_8eaf_a340cd2ff7bf",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "5c245303_9c7c_40e5_b18c_9998279b032d",
+        "socketId": "texture"
+      },
+      "type": {
+        "id": "sampler2D"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "1201e905_72e3_4a1e_b263_6cf6ca7b0313",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "ec82be85_aa82_4cea_95b7_1b4846c64914",
+        "socketId": "a"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "5c245303_9c7c_40e5_b18c_9998279b032d",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "ec82be85_aa82_4cea_95b7_1b4846c64914",
+        "socketId": "x"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "1e30e28b_7382_42d5_ac93_7633c6f7777d",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "ec82be85_aa82_4cea_95b7_1b4846c64914",
+        "socketId": "y"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "ec82be85_aa82_4cea_95b7_1b4846c64914",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "ec7b8bb7_00b5_4150_b47d_02351791760a",
+        "socketId": "a"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    },
+    {
+      "from": {
+        "nodeId": "d5ed6f80_b2b2_4ebf_9321_763ff1bfb25f",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "ec7b8bb7_00b5_4150_b47d_02351791760a",
+        "socketId": "b"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "ec7b8bb7_00b5_4150_b47d_02351791760a",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "5d185795_4269_4c1e_8d1f_1c5333879582",
+        "socketId": "in"
+      },
+      "type": {
+        "id": "vector",
+        "type": "float",
+        "size": 4
+      }
+    },
+    {
+      "from": {
+        "nodeId": "1ce41c13_1f1f_4235_a082_7d30437eaa12",
+        "socketId": "out"
+      },
+      "to": {
+        "nodeId": "d5ed6f80_b2b2_4ebf_9321_763ff1bfb25f",
+        "socketId": "a"
+      },
+      "type": {
+        "id": "scalar",
+        "type": "float"
+      }
+    }
+  ],
+  "uniforms": {
+    "tex": {
+      "id": "tex",
+      "type": {
+        "id": "sampler2D"
+      },
+      "defaultValue": {
+        "type": "string",
+        "value": "src/textures/dragon.png"
+      },
+      "visualizer": {
+        "id": "texture"
+      }
+    },
+    "tex2": {
+      "id": "tex2",
+      "type": {
+        "id": "sampler2D"
+      },
+      "defaultValue": {
+        "type": "string",
+        "value": "src/textures/dragon2.png"
+      },
+      "visualizer": {
+        "id": "texture"
+      }
+    }
+  }
+}
