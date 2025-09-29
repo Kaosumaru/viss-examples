@@ -1,6 +1,9 @@
 {
   "includes": [
-    "src/glsl/includes/wavy.glsl"
+    {
+      "path": "src/glsl/includes/wavy.glsl",
+      "kind": "workspace"
+    }
   ],
   "nodes": [
     {

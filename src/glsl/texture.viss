@@ -390,8 +390,9 @@
         "socketId": "a"
       },
       "type": {
-        "id": "scalar",
-        "type": "float"
+        "id": "vector",
+        "type": "float",
+        "size": 4
       }
     },
     {
@@ -446,8 +447,11 @@
         "id": "sampler2D"
       },
       "defaultValue": {
-        "type": "string",
-        "value": "src/textures/dragon.png"
+        "type": "path",
+        "value": {
+          "path": "src/textures/dragon.png",
+          "kind": "workspace"
+        }
       },
       "visualizer": {
         "id": "texture"
@@ -459,8 +463,11 @@
         "id": "sampler2D"
       },
       "defaultValue": {
-        "type": "string",
-        "value": "src/textures/dragon2.png"
+        "type": "path",
+        "value": {
+          "path": "src/textures/dragon2.png",
+          "kind": "workspace"
+        }
       },
       "visualizer": {
         "id": "texture"

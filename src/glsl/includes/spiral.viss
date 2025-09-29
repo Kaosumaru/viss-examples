@@ -1,6 +1,9 @@
 {
   "includes": [
-    "src/glsl/includes/spiral.glsl"
+    {
+      "path": "src/glsl/includes/spiral.glsl",
+      "kind": "workspace"
+    }
   ],
   "nodes": [
     {
@@ -30,8 +33,8 @@
       "identifier": "aa30964d_6805_4e6d_a92b_f69fd6212c4e",
       "nodeType": "uv",
       "position": {
-        "x": -459.4574516398093,
-        "y": -93.52071935689565
+        "x": -454.3917895444972,
+        "y": -106.69144080470696
       },
       "parameters": {}
     },
