@@ -1,4 +1,4 @@
-# Samples for Vis
+# Samples for Viss
 
 This is a library with sample graphs for Viss editor https://github.com/Kaosumaru/viss
 
